@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #ffff;
+    background-color: rgb(124, 1, 63);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#formulario {
+    border: 2px solid rgb(243, 139, 191);
+    width: 29vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#campoTarefa {
+    display: flex;
+    flex-direction: row;
+}
+#nomeTarefa {
+    border: 2px solid rgb(152, 116, 250);
+    border-radius: 4px;
+    margin-right: 19px;
+    width: 170px;
+    height: 18px;
+}
+#statusTarefa {
+    border: 2px solid rgb(152, 116, 250);
+    border-radius: 4px;
+    margin-right: 19px;
+}
+
+#adicionarTarefa {
+    border: 2px solid rgb(152, 116, 250);
+    border-radius: 30px;
+    background-color: rgb(128, 24, 76);
+    color: rgb(152, 116, 250);
+    width: 135px;
+    height: 27px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+#limparTarefas {
+    border: 3px solid rgb(84, 26, 241);
+    border-radius: 30px;
+    background-color: rgb(128, 24, 76);
+    color: #ffff;
+    width: 170px;
+    height: 27px;
+    margin-top: 5px;
+}
