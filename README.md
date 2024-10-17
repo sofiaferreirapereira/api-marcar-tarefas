@@ -1,3 +1,5 @@
+## Gerenciador de Tarefas - API
+
 Este projeto é uma API do tipo REST simples para gerenciar tarefas, construída com **Node.js**, **Express** e um arquivo **JSON** como banco de dados. A API permite criar, listar, editar e excluir tarefas. A seguir estão as instruções para configurar e usar a aplicação. Todo o projeto foi desenvolvido na aula de Desenvolvimento de Sistemas no SENAI junto dos alunos.
 
 ## Funcionalidades
